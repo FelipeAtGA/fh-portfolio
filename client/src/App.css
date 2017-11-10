@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #000;
   padding: 20px;
   color: white;
 }
@@ -19,6 +19,16 @@
 
 .App-intro {
   font-size: large;
+}
+
+.Nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Nav li {
+
 }
 
 @keyframes App-logo-spin {
