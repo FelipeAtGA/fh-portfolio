@@ -32,6 +32,14 @@
 
 }
 
+.navbar-toggle.collapsed:hover {
+  background-color: #ccc;
+}
+
+.navbar-toggle.collapsed:hover span.icon-bar {
+  background-color: #000;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
