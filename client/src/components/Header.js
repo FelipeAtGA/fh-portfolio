@@ -5,7 +5,12 @@ class Header extends Component {
     return (
         <header className="App-header">
           <div className="App">
-           <h1 className="App-title">Welcome to React</h1>
+            <ul className="Nav">
+              <li>Home</li>
+              <li>Work</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
           </div>
         </header>
     );
