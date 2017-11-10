@@ -1,3 +1,31 @@
+#logo {
+  height: auto;
+}
+
+#name {
+  display: flex;
+  background-color: rgba(204, 204, 204, .8);
+  padding: 20px;
+  justify-content: space-around;
+}
+
+#name div.branding {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.brand {
+  letter-spacing: .5em;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+p.tagLine {
+  font-size: 1.5rem;
+  letter-spacing: 0.3em;
+  padding-right: 6px;
+}
+
 .App {
   text-align: center;
 }
