@@ -2,16 +2,16 @@
   height: auto;
 }
 
-#name {
+#branding {
   display: flex;
   background-color: rgba(204, 204, 204, .8);
   padding: 20px;
   justify-content: space-around;
 }
 
-#name div.branding {
+#branding div.name {
   text-align: right;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 #logo img {
