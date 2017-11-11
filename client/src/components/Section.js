@@ -7,8 +7,8 @@ class Section extends Component {
   render() {
     return (
       <div>
-        <div id="name">
-          <div className="branding">
+        <div id="branding">
+          <div className="name">
             <p className="brand">FELIPE HERNANDEZ</p>
             <p className="tagLine">Front End Web Developer</p>
           </div>
