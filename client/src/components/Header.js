@@ -7,7 +7,7 @@ import '../App.css';
 class Header extends Component {
   render() {
     return (
-      <div className="warper">
+      <header>
         <Navbar inverse collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
@@ -27,7 +27,7 @@ class Header extends Component {
           </Navbar.Collapse>
         </Navbar>
         <Section />
-      </div>
+      </header>
     );
   }
 }
