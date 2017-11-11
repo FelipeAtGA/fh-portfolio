@@ -13,7 +13,7 @@ class Section extends Component {
             <p className="tagLine">Front End Web Developer</p>
           </div>
           <div id="logo">
-            <img className="img-responsive" src={logo} />
+            <img className="img-responsive" src={logo} alt="Felipe Hernandez logo"/>
           </div>
         </div>
       </div>
