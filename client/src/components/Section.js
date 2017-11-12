@@ -6,11 +6,11 @@ import logo from '../tvLogoLinesv2.png';
 class Section extends Component {
   render() {
     return (
-      <div>
-        <div id="branding">
+      <div className="wrapper-branding">
+        <div className="branding">
           <div className="name">
             <p className="brand">FELIPE HERNANDEZ</p>
-            <p className="tagLine">Front End Web Developer</p>
+            <p className="tagLine">web &nbsp;developer</p>
           </div>
           <div id="logo">
             <img className="img-responsive" src={logo} alt="Felipe Hernandez logo"/>
