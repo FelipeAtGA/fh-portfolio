@@ -1,3 +1,7 @@
+main{
+  margin: 20px 0;
+}
+
 #logo {
   height: auto;
 }
@@ -41,6 +45,10 @@ p.tagLine {
 
 .App {
   text-align: center;
+}
+
+.App img.img-responsive {
+  width: 0 auto;
 }
 
 .App-logo {
