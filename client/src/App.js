@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import frontImage from './glitchImage.png';
 import './App.css';
 
 class App extends Component {
@@ -9,9 +10,7 @@ class App extends Component {
         <Header />
         <main>
           <div className="App">
-            <p className="App-intro">
-              To get started, edit <code>src/App.js</code> and save to reload.
-            </p>
+            <img className="img-responsive" src={frontImage} alt="Felipe Hernandez logo"/>
           </div>
         </main>
       </div>
