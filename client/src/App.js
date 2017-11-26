@@ -21,7 +21,7 @@ class App extends Component {
             <div className="typeWriter">
               <Typist>
                 <span className="welcomeTxt">Hello, and welcome to my site!<br />
-                In here, you will find work that I have done for web development, porgramming, and design.</span>
+                In here, you will find work that I have done for web development, programming, and design.</span>
               </Typist>
             </div>
             <img className="img-responsive" src={frontImage} alt="Felipe Hernandez logo"/>
