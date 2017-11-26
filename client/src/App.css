@@ -1,5 +1,5 @@
 body{
-  font-family: "Montserrat";
+  font-family: Montserrat, Helvetica, sans serif;
 }
 main{
   margin: 20px 0;
@@ -31,7 +31,7 @@ main{
 }
 
 .wrapper-branding {
-  background-color: rgba(204, 204, 204, .8);
+  background-color: rgba(126, 204, 204, .8);
 }
 
 .brand {
@@ -96,10 +96,12 @@ p.tagLine {
   /*background: yellow;
   padding: 20px;
   border-radius: 25px;*/
-  max-width: 75%;
+  max-width: 540px;
   text-align: left;
   position: absolute;
   z-index: 1;
+  margin: 0 0 0 3%;
+  padding: 20px;
 }
 
 .welcomeTxt{
