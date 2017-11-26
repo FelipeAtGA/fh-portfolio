@@ -92,6 +92,15 @@ p.tagLine {
   background-color: #000;
 }
 
+.navbar-brand{
+  float: right;
+}
+
+.navbar-toggle{
+  float: left;
+  margin-left: 20px;
+}
+
 .typeWriter {
   /*background: yellow;
   padding: 20px;
