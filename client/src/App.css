@@ -92,13 +92,21 @@ p.tagLine {
   background-color: #000;
 }
 
-.navbar-brand{
+/*.navbar-brand{
   float: right;
 }
 
 .navbar-toggle{
   float: left;
   margin-left: 20px;
+}*/
+
+.navbar-right li{
+  display: inline-block;
+}
+
+.fa{
+  font-size: 16px;
 }
 
 .typeWriter {
