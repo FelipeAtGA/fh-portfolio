@@ -31,7 +31,9 @@ main{
 }
 
 .wrapper-branding {
-  background-color: rgba(126, 204, 204, .8);
+  /*background-color: rgba(126, 204, 204, .8);*/
+  background-color: #581845;
+  color: #fff;
 }
 
 .brand {
