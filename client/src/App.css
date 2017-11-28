@@ -67,6 +67,15 @@ p.tagLine {
   font-size: 1.5em;
 }
 
+.homeImg {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.homeImg img {
+  width: 100%;
+}
+
 .App-intro {
   font-size: large;
 }
@@ -111,7 +120,7 @@ p.tagLine {
   /*background: yellow;
   padding: 20px;
   border-radius: 25px;*/
-  max-width: 540px;
+  max-width: 875px /* 540px */;
   text-align: left;
   position: absolute;
   z-index: 1;
@@ -121,7 +130,7 @@ p.tagLine {
 
 .welcomeTxt{
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 2vw /* 18px */;
   font-weight: 500;
   margin: 10px 0;
 }
