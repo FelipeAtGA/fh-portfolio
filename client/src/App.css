@@ -50,10 +50,6 @@ p.tagLine {
   text-align: center;
 }
 
-.App img.img-responsive {
-  width: 0 auto;
-}
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
