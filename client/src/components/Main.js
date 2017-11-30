@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import frontImage from './glitchImage.png';
+import frontImage from '../glitchImage.png';
 import Typist from 'react-typist'; /* https://github.com/jstejada/react-typist */
 import '../App.css';
 
