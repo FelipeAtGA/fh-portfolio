@@ -32,8 +32,9 @@ main{
 
 .wrapper-branding {
   /*background-color: rgba(126, 204, 204, .8);*/
-  background-color: #581845;
+  background-color: #6d034d /* #581845 */;
   color: #fff;
+  border-radius: 4px;
 }
 
 .brand {
@@ -97,6 +98,10 @@ p.tagLine {
 
 .navbar-toggle.collapsed:hover span.icon-bar {
   background-color: #000;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+  color: #bfbfbf;
 }
 
 /*.navbar-brand{
