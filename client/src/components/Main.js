@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import frontImage from '../glitchImage.png';
+import Homeimage from './Homeimage';
 import Typist from './Typist';
 import '../App.css';
 
@@ -9,7 +9,7 @@ class Main extends Component {
       <main>
         <div className="App">
           <Typist />
-          <img className="img-responsive" src={frontImage} alt="Felipe Hernandez logo"/>
+          <Homeimage />
         </div>
       </main>
     );
