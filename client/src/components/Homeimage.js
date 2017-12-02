@@ -1,5 +1,5 @@
 import React from 'react';
-import homeImage from '../glitchImage.png';
+import homeImage from '../img/glitchImage.png';
 
 const Homeimage = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import logo from '../tvLogoLinesv2.png';
+import logo from '../img/tvLogoLinesv2.png';
 
 
 class Section extends Component {
