@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Homeimage from './Homeimage';
 import Typist from './Typist';
-import '../App.css';
+import './App.css';
 
 class Main extends Component {
   render() {
