@@ -34,11 +34,13 @@ main{
   background-color: rgba(126, 204, 204, .8);
 }
 
+/*
 .brand {
   letter-spacing: .4em;
   font-size: 1.5em;
   text-align: right;
 }
+*/
 
 p.tagLine {
   font-size: 1.5rem;
@@ -131,3 +133,6 @@ p.tagLine {
       100% { opacity:1; }
     }
 
+.homeImage {
+  padding-top: 45px;
+}
