@@ -1,26 +1,46 @@
 .messageWrapper {
   position: absolute;
-  width: 50%;
+  width: /* 50 */ 43%;
+  margin: 20px;
 }
 
+/*
 .brand {
   width: 80%;
   padding: 20px;
 }
+*/
 
 .name {
   font-size: 4vw;
   font-weight: 700;
-  text-align: right;
 }
 
 .ocupation {
   font-size: 2vw;
-  text-align: right;
+  padding-left: 5px;
 }
 
 .Typist {
-  width: 80%;
-  text-align: right;
-  padding: 0 20px;
+  /* width: 80%; */
+  padding: 0 300px 0 5px;
+}
+
+.Typist .Cursor {
+  display: inline-block;
+}
+
+.Typist .Cursor.Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite;
+  font-size: 18px;
+}
+
+@keyframes blink {
+  0% { opacity:1; }
+  20% { opacity:0; }
+  40% { opacity:0; }
+  60% { opacity:0; }
+  80% { opacity:0; }
+  100% { opacity:1; }
 }
