@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Homeimage from './Homeimage';
-import Typist from './Typist';
+import Welcommessage from './WelcomeMessage';
 import './App.css';
 
 class Main extends Component {
@@ -8,7 +8,7 @@ class Main extends Component {
     return (
       <main>
         <div className="App">
-          <Typist />
+          <Welcommessage />
           <Homeimage />
         </div>
       </main>
