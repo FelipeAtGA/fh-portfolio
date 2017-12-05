@@ -1,0 +1,26 @@
+.messageWrapper {
+  position: absolute;
+  width: 50%;
+}
+
+.brand {
+  width: 80%;
+  padding: 20px;
+}
+
+.name {
+  font-size: 4vw;
+  font-weight: 700;
+  text-align: right;
+}
+
+.ocupation {
+  font-size: 2vw;
+  text-align: right;
+}
+
+.Typist {
+  width: 80%;
+  text-align: right;
+  padding: 0 20px;
+}
