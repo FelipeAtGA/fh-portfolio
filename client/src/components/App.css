@@ -2,7 +2,10 @@ body{
   font-family: Montserrat, Helvetica, sans serif;
 }
 main{
-  margin: 20px 0;
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #logo {
@@ -49,7 +52,7 @@ p.tagLine {
 }
 
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -114,25 +117,9 @@ p.tagLine {
   to { transform: rotate(360deg); }
 }
 
-.typeWriter .Typist .Cursor {
-  display: inline-block;
-}
-
-.typeWriter .Typist .Cursor.Cursor--blinking {
-    opacity: 1;
-    animation: blink 1s linear infinite;
-    font-size: 18px;
-}
-
-    @keyframes blink {
-      0% { opacity:1; }
-      20% { opacity:0; }
-      40% { opacity:0; }
-      60% { opacity:0; }
-      80% { opacity:0; }
-      100% { opacity:1; }
-    }
-
 .homeImage {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
   padding-top: 45px;
 }
