@@ -15,6 +15,7 @@ nav ul li {
 
 nav ul li a {
   color: #000;
+  font-weight: 700;
 }
 
 nav ul li a:hover {
