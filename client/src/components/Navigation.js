@@ -1,6 +1,6 @@
-import React from 'react';
-import './Navbar.css';
-import logo from '../img/fh_logo_squared.png';
+import React from "react";
+import "./Navbar.css";
+import logo from "../img/fh_logo_squared.png";
 
 const Navigation = () => {
   return (

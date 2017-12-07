@@ -1,5 +1,5 @@
-import React from 'react';
-import Typist from 'react-typist'; /* https://github.com/jstejada/react-typist */
+import React from "react";
+import Typist from "react-typist"; /* https://github.com/jstejada/react-typist */
 
 const Typewriter = () => {
   return (

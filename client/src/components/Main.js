@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Homeimage from './Homeimage';
-import Welcommessage from './WelcomeMessage';
-import Navigation from './Navigation';
+import React, { Component } from "react";
+import Homeimage from "./Homeimage";
+import Welcommessage from "./WelcomeMessage";
+import Navigation from "./Navigation";
 import './App.css';
 
 class Main extends Component {
