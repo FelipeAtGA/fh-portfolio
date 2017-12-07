@@ -1,0 +1,28 @@
+nav {
+  margin: 20px;
+  font-size: 16px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li {
+  margin: 10px;
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #000;
+}
+
+.logo_wrapper {
+  width: 80px;
+  height: 56px;
+  display: inline-block;
+}
+
+.logo_wrapper > a > img {
+  width: 100%;
+}
