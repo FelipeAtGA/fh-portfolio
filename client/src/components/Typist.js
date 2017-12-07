@@ -5,7 +5,7 @@ const Typewriter = () => {
   return (
     <Typist>
       <span>Hello, and welcome to my site!<br />
-      In here, you will find work that I have done for web development, programming, and design.</span>
+      In here, you will find work that I have done for web development, programming, and graphics.</span>
     </Typist>
   );
 }
