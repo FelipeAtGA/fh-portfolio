@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from './Header';
 import Main from './Main';
 
 class App extends Component {
@@ -13,7 +12,6 @@ class App extends Component {
     console.log(this.state.type);
     return (
       <div className='wraper'>
-        <Header />
         <Main />
       </div>
     );
