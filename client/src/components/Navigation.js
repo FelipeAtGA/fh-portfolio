@@ -15,9 +15,9 @@ const Navigation = () => {
         <li className="dropdown">
           <span>Work &nbsp;<i className="fa fa-caret-down" aria-hidden="true"></i></span>
           <ul className="dropdown-content">
-            <li><Link to="#">web dev. + programming</Link></li>
-            <li><Link to="#">photoshop + illustrator</Link></li>
-            <li><Link to="#">video + animation</Link></li>
+            <li><Link to="#">&#8627; web dev. + programming</Link></li>
+            <li><Link to="#">&#8627; photoshop + illustrator</Link></li>
+            <li><Link to="#">&#8627; video + animation</Link></li>
           </ul>
         </li>
         <li><Link to="#">About</Link></li>
