@@ -42,13 +42,22 @@ nav ul li a:hover {
 }
 
 .dropdown-content {
-  display: none;
+  max-height: 0;
   position: absolute;
+  overflow: hidden;
+  padding: initial;
+  transition: max-height 0.15s ease-out;
+  min-width: 250px;
   z-index: 1;
 }
 
+.dropdown-content li {
+  min-width: 250px;
+}
+
 .dropdown:hover .dropdown-content {
-  display: block;
+  max-height: 126px;
+  transition: max-height 0.25s ease-in;
   padding: initial;
   min-width: 250px;
   background: #eee;
