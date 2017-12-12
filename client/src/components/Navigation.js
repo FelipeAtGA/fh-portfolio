@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import logo from "../img/fh_logo_squared.png";
 
@@ -6,20 +7,20 @@ const Navigation = () => {
   return (
     <nav>
       <div className="logo_wrapper">
-        <a href="#">
+        <Link to="#">
           <img src={logo} />
-        </a>
+        </Link>
       </div>
       <ul>
         <li className="dropdown">
-          <a href="#">Work &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <span>Work &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></span>
           <ul className="dropdown-content">
-            <li><a href="#">web dev. + programming</a></li>
-            <li><a href="#">photoshop + illustrator</a></li>
-            <li><a href="#">video + animation</a></li>
+            <li><Link to="#">web dev. + programming</Link></li>
+            <li><Link to="#">photoshop + illustrator</Link></li>
+            <li><Link to="#">video + animation</Link></li>
           </ul>
         </li>
-        <li><a href="#">About</a></li>
+        <li><Link to="#">About</Link></li>
         <li>
           <a href="#">
             <i className="fa fa-github" aria-hidden="true"></i>
