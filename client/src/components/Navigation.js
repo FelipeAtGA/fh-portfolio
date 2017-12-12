@@ -22,12 +22,12 @@ const Navigation = () => {
         </li>
         <li><Link to="#">About</Link></li>
         <li>
-          <a href="#">
+          <a href="https://github.com/FelipeAtGA" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-github" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/felipe-hernandez/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin" aria-hidden="true"></i>
           </a>
         </li>
