@@ -15,12 +15,12 @@ const Navigation = () => {
         <li><a href="#">About</a></li>
         <li>
           <a href="#">
-            <i class="fa fa-github" aria-hidden="true"></i>
+            <i className="fa fa-github" aria-hidden="true"></i>
           </a>
         </li>
         <li>
           <a href="#">
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i className="fa fa-linkedin" aria-hidden="true"></i>
           </a>
         </li>
 
