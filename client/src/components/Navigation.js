@@ -11,7 +11,14 @@ const Navigation = () => {
         </a>
       </div>
       <ul>
-        <li><a href="#">Work</a></li>
+        <li className="dropdown">
+          <a href="#">Work &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          <ul className="dropdown-content">
+            <li><a href="#">web dev. + programming</a></li>
+            <li><a href="#">photoshop + illustrator</a></li>
+            <li><a href="#">video + animation</a></li>
+          </ul>
+        </li>
         <li><a href="#">About</a></li>
         <li>
           <a href="#">
