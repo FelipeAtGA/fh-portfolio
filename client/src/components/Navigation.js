@@ -8,12 +8,12 @@ const Navigation = () => {
     <nav>
       <div className="logo_wrapper">
         <Link to="#">
-          <img src={logo} />
+          <img src={logo} alt="Felipe Hernandez brand logo FH"/>
         </Link>
       </div>
       <ul>
         <li className="dropdown">
-          <span>Work &nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></span>
+          <span>Work &nbsp;<i className="fa fa-caret-down" aria-hidden="true"></i></span>
           <ul className="dropdown-content">
             <li><Link to="#">web dev. + programming</Link></li>
             <li><Link to="#">photoshop + illustrator</Link></li>
