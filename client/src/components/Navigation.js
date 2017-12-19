@@ -4,6 +4,20 @@ import "./Navbar.css";
 import logo from "../img/fh_logo_squared.png";
 
 const Navigation = () => {
+  const element = document.getElementsByTagName("span");
+
+  function active() {
+    element[0].style.backgroundColor="#23527c";
+    element[0].style.color="#fff";
+    element[0].style.fontWeight="500";
+  }
+
+  function unactive(e) {
+    element[0].style.backgroundColor="inherit";
+    element[0].style.color="#000";
+    element[0].style.fontWeight="700";
+  }
+
   return (
     <nav>
       <div className="logo_wrapper">
@@ -12,9 +26,9 @@ const Navigation = () => {
         </Link>
       </div>
       <ul>
-        <li className="dropdown">
+        <li className="dropdown" onMouseOver={active} onMouseOut={unactive}>
           <span>Work &nbsp;<i className="fa fa-caret-down" aria-hidden="true"></i></span>
-          <ul className="dropdown-content">
+          <ul className="dropdown-content" onMouseOver={active} onMouseOut={unactive}>
             <li><Link to="#">&#8627; web dev. + programming</Link></li>
             <li><Link to="#">&#8627; photoshop + illustrator</Link></li>
             <li><Link to="#">&#8627; video + animation</Link></li>
