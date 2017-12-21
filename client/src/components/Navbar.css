@@ -73,6 +73,6 @@ li.dropdown {
   transition: max-height 0.25s ease-in;
   padding: initial;
   min-width: 250px;
-  background: #eee;
+  background-color: #f5f8f9;
   border-radius: 4px;
 }
