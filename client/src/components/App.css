@@ -1,11 +1,15 @@
 main{
   width: 100%;
-  /*
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  */
 }
+
+.homeImage {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/*  BELOW IS THE CSS FOR THE FIRST HOME PAGE TRIALS */
 
 #logo {
   height: auto;
@@ -114,11 +118,4 @@ p.tagLine {
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
-
-.homeImage {
-  width: 60%;
-  margin: 0 auto;
-  display: block;
-  /* padding-top: 45px; */
 }
