@@ -8,6 +8,9 @@ main{
   display: block;
 }
 
+.wrapper {
+  margin: 0 20px;
+}
 
 /*  BELOW IS THE CSS FOR THE FIRST HOME PAGE TRIALS */
 
