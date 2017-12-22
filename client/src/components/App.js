@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import Home from "./Home";
+import { Route, Switch } from "react-router";
 import Header from "./Header";
+import Webdevpro from "./Webdevpro";
+import Home from "./Home";
 
 class App extends Component {
   constructor(props){
@@ -15,7 +17,12 @@ class App extends Component {
       <div className='wrapper'>
         <Header />
         <main>
-          <Home />
+          <Switch>
+            <Route exact path="/Webdevpro"
+              render={ () => <Webdevpro /> }
+            />
+            <Route exact path="/" component={ Home }/>
+          </Switch>
         </main>
       </div>
     );
