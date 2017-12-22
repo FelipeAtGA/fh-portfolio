@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Main from "./Main";
+import Home from "./Home";
 import Header from "./Header";
 
 class App extends Component {
@@ -14,7 +14,9 @@ class App extends Component {
     return (
       <div className='wrapper'>
         <Header />
-        <Main />
+        <main>
+          <Home />
+        </main>
       </div>
     );
   }
