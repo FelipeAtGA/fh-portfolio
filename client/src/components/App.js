@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     console.log(this.state.type);
     return (
-      <div className='wraper'>
+      <div className='wrapper'>
         <Header />
         <Main />
       </div>
