@@ -21,15 +21,16 @@ const Navigation = () => {
   return (
     <nav>
       <div className="logo_wrapper">
-        <Link to="#">
+        <Link to="/">
           <img src={logo} alt="Felipe Hernandez brand logo FH"/>
         </Link>
       </div>
       <ul>
+        <li><Link to="/">Home</Link></li>
         <li className="dropdown" onMouseOver={active} onMouseOut={unactive}>
           <span>Work &nbsp;<i className="fa fa-caret-down" aria-hidden="true"></i></span>
           <ul className="dropdown-content" onMouseOver={active} onMouseOut={unactive}>
-            <li><Link to="#">&#8627; web dev. + programming</Link></li>
+            <li><Link to="/Webdevpro">&#8627; web dev. + programming</Link></li>
             <li><Link to="#">&#8627; photoshop + illustrator</Link></li>
             <li><Link to="#">&#8627; video + animation</Link></li>
           </ul>
