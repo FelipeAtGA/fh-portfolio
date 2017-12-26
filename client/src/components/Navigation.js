@@ -9,13 +9,11 @@ const Navigation = () => {
   function active() {
     element[0].style.backgroundColor="#23527c";
     element[0].style.color="#fff";
-    element[0].style.fontWeight="500";
   }
 
   function unactive(e) {
     element[0].style.backgroundColor="inherit";
     element[0].style.color="#000";
-    element[0].style.fontWeight="700";
   }
 
   return (
