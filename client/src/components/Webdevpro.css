@@ -1,0 +1,20 @@
+.webdevproGridWrapper {
+  margin: 25px 0;
+  background-color: #f5f8f9;
+  padding: 20px;
+}
+
+.imageWrapper {
+  width: 30%;
+  float: left
+}
+
+.imageWrapper img {
+  width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
