@@ -3,7 +3,7 @@ import Homeimage from "./Homeimage";
 import Welcommessage from "./WelcomeMessage";
 import './App.css';
 
-class Main extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="App">
@@ -14,4 +14,4 @@ class Main extends Component {
   }
 }
 
-export default Main;
+export default Home;
