@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import MuseumVisitApp from "./MuseumVisitApp";
+import UnitCollectorGame from "./UnitCollectorGame";
 import "./Webdevpro.css"
 
 class Webdevpro extends Component {
@@ -15,6 +16,7 @@ class Webdevpro extends Component {
       <div>
         <hr />
         <MuseumVisitApp />
+        <UnitCollectorGame />
       </div>
     );
   }
