@@ -24,9 +24,9 @@ nav ul li a, li.dropdown > span {
 }
 
 nav ul li a:hover {
-  color: #fff;
+  color: #ff0;
   font-weight: 500;
-  background-color: #23527c;
+  background-color: #000 /*#23527c*/;
   text-decoration: none;
 }
 
