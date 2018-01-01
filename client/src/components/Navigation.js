@@ -7,8 +7,8 @@ const Navigation = () => {
   const element = document.getElementsByTagName("span");
 
   function active() {
-    element[0].style.backgroundColor="#23527c";
-    element[0].style.color="#fff";
+    element[0].style.backgroundColor="#000";
+    element[0].style.color="#ff0";
   }
 
   function unactive(e) {
