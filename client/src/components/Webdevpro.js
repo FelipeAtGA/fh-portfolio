@@ -15,6 +15,7 @@ class Webdevpro extends Component {
     return (
       <div>
         <hr />
+        <h1 className="pageTitle">Web development<br />and programming</h1>
         <MuseumVisitApp />
         <UnitCollectorGame />
       </div>

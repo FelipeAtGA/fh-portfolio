@@ -4,7 +4,6 @@ import Museumapp from "../img/museumVisitPlanner_homepage.png";
 const MuseumVisitApp = () => {
   return (
     <div>
-      <h1 className="pageTitle">Web development<br />and programming</h1>
       <div className="webdevproGridWrapper clearfix cards">
         <div className="imageWrapper">
           <img src={ Museumapp } alt="Screenshot of the museum homepage app" />
