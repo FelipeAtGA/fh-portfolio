@@ -10,15 +10,16 @@ const UnitCollectorApp = () => {
         </div>
         <div className="workDescription">
           <h3>Unit Collector: Js Game</h3>
-          <p>For my capstone project, I built a full CRUD application from the ground up. Using the MVC model, I scaffolded with node.js, then added back-end with express.js, and implemented react.js for the front-end. I also used a public API from a famous museum in nyc, using Json and axios. The project was completed in 14 days</p>
+          <p>Unit Collector is going to be a version of the game Kaboom, a 1980s arcade game made by Activision for Atari. It has objects randomly falling from the top of the screen down, and the player has to catch these objects to avoid loosing the game. The player scores every time he/she catches an object. I was inspired to create Unit Collector from nostalgia for arcade games and the need to create something 2D.</p>
           <a className="linkToLiveApp" href="http://unit-collector.bitballoon.com/" target="_black">Live app</a>
         </div>
         <div className="workTech">
           <h3>Technologies used:</h3>
           <ul>
             <li className="listTech">HTML</li>
-            <li className="listTech">CSS</li>
-            <li className="listTech">JavaScript</li>
+            <li className="listTech">CSS -  animations</li>
+            <li className="listTech">JavaScript - objects</li>
+            <li className="listTech">JQuery</li>
             <li className="listTech">Github</li>
             <li className="listTech">CLI</li>
           </ul>
