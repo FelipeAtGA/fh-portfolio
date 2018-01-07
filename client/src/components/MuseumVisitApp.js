@@ -23,6 +23,7 @@ class MuseumVisitApp extends Component {
             <h3>Museum Visit Planner</h3>
             <p>For my capstone project, I built a full CRUD application from the ground up. Using the MVC model, I scaffolded with node.js, then added back-end with express.js, and implemented react.js for the front-end. I also used a public API from a famous museum in nyc, using Json and axios. The project was completed in 14 days</p>
             <a className="linkToLiveApp" href="https://dry-plains-91322.herokuapp.com/" target="_black">Live app</a>
+            <a className="linkToAppInGithub" href="https://github.com/FelipeAtGA/CH-Plan-A-Visit" target="_black">App on &nbsp;<i className="fa fa-github AppBttn" aria-hidden="true"></i></a>
           </div>
           <div className="workTech">
             <h3>Technologies used:</h3>
