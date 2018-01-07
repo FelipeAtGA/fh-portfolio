@@ -10,16 +10,19 @@ class App extends Component {
     super(props);
     this.state = {
       modal: false,
+      img4modal: "",
     }
     this.setModal = this.setModal.bind(this);
   }
 
-  setModal(event) {
+  setModal(image) {
+    let imageName = image;
     let modal = document.getElementsByClassName("modalOverlay");
     if (this.state.modal === false) {
       modal[0].style.display="block";
       this.setState({
         modal: true,
+        img4modal: imageName,
       })
     }else{
       modal[0].style.display="none";
@@ -30,14 +33,17 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.type);
     return (
       <div className='wrapper'>
+        <Modal  imageUri={ this.state.img4modal }
+                setModal={ this.setModal }
+        />
         <Header />
         <main>
           <Switch>
             <Route exact path="/Webdevpro"
-              render={ () => <Webdevpro setModal={ this.setModal } /> }
+              render={ () => <Webdevpro setModal={ this.setModal } />
+              }
             />
             <Route exact path="/" component={ Home }/>
           </Switch>
