@@ -39,8 +39,8 @@
   margin-bottom: 20px;
 }
 
-.linkToLiveApp {
-  margin: 10px 0;
+.linkToLiveApp, .linkToAppInGithub {
+  margin: 10px 10px 10px 0;
   display: inline-block;
   background: #000;
   border-radius: 4px;
@@ -48,9 +48,13 @@
   color: #fff;
 }
 
-.linkToLiveApp:hover {
+.linkToLiveApp:hover, .linkToAppInGithub:hover {
   color: yellow;
   border-radius: 1px solid;
+}
+
+.fa.fa-github.AppBttn {
+  font-size: 16px;
 }
 
 .workTech {
