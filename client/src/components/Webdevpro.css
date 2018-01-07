@@ -20,6 +20,7 @@
 .imageWrapper img {
   width: 100%;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .clearfix::after {
