@@ -48,8 +48,8 @@
   color: #fff;
 }
 
-.linkToLiveApp:hover, .linkToAppInGithub:hover {
-  color: yellow;
+.linkToLiveApp:hover, .linkToAppInGithub:hover, .linkToLiveApp:focus, .linkToAppInGithub:focus {
+  color: #00ff00;
   border-radius: 1px solid;
 }
 

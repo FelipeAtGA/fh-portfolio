@@ -22,6 +22,7 @@ class UnitCollectorApp extends Component {
             <h3>Unit Collector: Js Game</h3>
             <p>Unit Collector is going to be a version of the game Kaboom, a 1980s arcade game made by Activision for Atari. It has objects randomly falling from the top of the screen down, and the player has to catch these objects to avoid loosing the game. The player scores every time he/she catches an object. I was inspired to create Unit Collector from nostalgia for arcade games and the need to create something 2D.</p>
             <a className="linkToLiveApp" href="http://unit-collector.bitballoon.com/" target="_black">Live app</a>
+            <a className="linkToAppInGithub" href="https://github.com/FelipeAtGA/Unit-Collector" target="_black">App on &nbsp;<i className="fa fa-github AppBttn" aria-hidden="true"></i></a>
           </div>
           <div className="workTech">
             <h3>Technologies used:</h3>
