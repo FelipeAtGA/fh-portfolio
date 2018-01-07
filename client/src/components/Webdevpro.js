@@ -16,7 +16,7 @@ class Webdevpro extends Component {
       <div>
         <hr />
         <h1 className="pageTitle">Web development<br />and programming</h1>
-        <MuseumVisitApp />
+        <MuseumVisitApp setModal={ this.props.setModal } />
         <UnitCollectorGame />
       </div>
     );
