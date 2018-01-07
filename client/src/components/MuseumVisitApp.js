@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Modal from "./Modal";
 import Museumapp from "../img/museumVisitPlanner_homepage.png";
 
 class MuseumVisitApp extends Component {
   constructor(props){
     super(props);
     this.state = {
+      imageName: "museumVisitPlanner",
     }
   }
 
@@ -13,13 +13,10 @@ class MuseumVisitApp extends Component {
   render() {
     return (
       <div>
-        <Modal imageUri={ require( "../img/museumVisitPlanner_homepage.png" ) }
-                setModal={ this.props.setModal }
-        />
         <div className="webdevproGridWrapper clearfix cards">
           <div className="imageWrapper">
             <img src={ Museumapp } alt="Screenshot of the museum homepage app"
-                onClick = { (imgsource) => { this.props.setModal(); } }
+                onClick = { (image) => { this.props.setModal(this.state.imageName); } }
             />
           </div>
           <div className="workDescription">
