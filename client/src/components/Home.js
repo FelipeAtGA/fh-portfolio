@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Homeimage from "./Homeimage";
 import Welcommessage from "./WelcomeMessage";
-import './App.css';
+import '../css/App.css';
 
 class Home extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../css/App.css';
 import logo from '../img/tvLogoLinesv2.png';
 
 

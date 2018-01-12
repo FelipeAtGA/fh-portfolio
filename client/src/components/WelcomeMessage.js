@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Typist from "./Typist";
-import "./Welcomemessage.css";
+import "../css/Welcomemessage.css";
 
 class Welcomemessage extends Component {
   render() {

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import unitCollectorGame from "../img/unitCollectorGame.jpg";
 import Museumapp from "../img/museumVisitPlanner_homepage.png";
 import MywebsiteImage from "../img/portfolioHomepageImg.png";
-import "./Modal.css";
+import "../css/Modal.css";
 
 class Modal extends Component {
   constructor(props){

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MuseumVisitApp from "./MuseumVisitApp";
 import UnitCollectorGame from "./UnitCollectorGame";
 import Mywebpage from "./Mywebpage";
-import "./Webdevpro.css"
+import "../css/Webdevpro.css"
 
 class Webdevpro extends Component {
   constructor(props){
