@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import MuseumVisitApp from "./MuseumVisitApp";
 import UnitCollectorGame from "./UnitCollectorGame";
+import Mywebpage from "./Mywebpage";
 import "./Webdevpro.css"
 
 class Webdevpro extends Component {
@@ -16,8 +17,9 @@ class Webdevpro extends Component {
       <div>
         <hr />
         <h1 className="pageTitle">Web development<br />and programming</h1>
-        <MuseumVisitApp setModal={ this.props.setModal } />
+        <MuseumVisitApp    setModal={ this.props.setModal } />
         <UnitCollectorGame setModal={ this.props.setModal } />
+        <Mywebpage         setModal={ this.props.setModal } />
       </div>
     );
   }
