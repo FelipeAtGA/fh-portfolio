@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import unitCollectorGame from "../img/unitCollectorGame.jpg";
 import Museumapp from "../img/museumVisitPlanner_homepage.png";
+import MywebsiteImage from "../img/portfolioHomepageImg.png";
 import "./Modal.css";
 
 class Modal extends Component {
@@ -16,6 +17,8 @@ class Modal extends Component {
       imageToRender = unitCollectorGame;
     }else if (this.props.imageUri === "museumVisitPlanner"){
       imageToRender = Museumapp;
+    }else if (this.props.imageUri === "mywebsiteFrontPageImg"){
+      imageToRender = MywebsiteImage;
     }
     return (
       <div>
