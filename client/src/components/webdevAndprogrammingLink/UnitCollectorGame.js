@@ -26,13 +26,17 @@ class UnitCollectorApp extends Component {
           </div>
           <div className="workTech">
             <h3>Technologies used:</h3>
-            <ul>
+            <ul className="tiles">
               <li className="listTech">HTML</li>
               <li className="listTech">CSS -  animations</li>
               <li className="listTech">JavaScript - objects</li>
               <li className="listTech">JQuery</li>
               <li className="listTech">Github</li>
               <li className="listTech">CLI</li>
+              <li className="Nextsteps"><h4>Next Steps:</h4></li>
+                <ul>
+                  <li>Make this app responsive to different viewports/devices</li>
+                </ul>
             </ul>
           </div>
         </div>

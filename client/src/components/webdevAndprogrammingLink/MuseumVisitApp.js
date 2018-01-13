@@ -27,7 +27,7 @@ class MuseumVisitApp extends Component {
           </div>
           <div className="workTech">
             <h3>Technologies used:</h3>
-            <ul>
+            <ul className="tiles">
               <li className="listTech">HTML + CSS</li>
               <li className="listTech">RESTfull</li>
               <li className="listTech">MVC model</li>
@@ -36,6 +36,10 @@ class MuseumVisitApp extends Component {
               <li className="listTech">React.js</li>
               <li className="listTech">Axios</li>
               <li className="listTech">PostgreeSQL</li>
+              <li className="Nextsteps"><h4>Next Steps:</h4></li>
+                <ul>
+                  <li>Make this app responsive to different viewports/devices</li>
+                </ul>
             </ul>
           </div>
         </div>
