@@ -2,5 +2,8 @@
     "extends": "airbnb",
     "env": {
       "browser": true
-    }
+    },
+    "key-spacing": [2, {
+      "exceptions": {"VariableDeclarator": true}
+    }]
 }
