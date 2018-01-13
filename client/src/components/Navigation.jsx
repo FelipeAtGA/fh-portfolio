@@ -39,7 +39,7 @@ const Navigation = () => {
             onMouseOut={unactive}
             onFocus={() => undefined}
             onBlur={() => undefined}
-            >
+          >
             <li><Link to="/Webdevpro">&#8627; web dev. + programming</Link></li>
             <li><Link to="#">&#8627; photoshop + illustrator</Link></li>
             <li><Link to="#">&#8627; video + animation</Link></li>
@@ -48,7 +48,7 @@ const Navigation = () => {
         <li><Link to="#">About</Link></li>
         <li>
           <a href="https://github.com/FelipeAtGA" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-github" aria-hidden="true"></i>
+            <i className="fa fa-github" aria-hidden="true" />
           </a>
         </li>
         <li>
