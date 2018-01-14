@@ -30,7 +30,7 @@ class MuseumVisitApp extends Component {
             node.js, then added back-end with express.js, and
             implemented react.js for the front-end.
             I also used a public API from a famous museum in nyc,
-            using Json and axios. The project was completed in 14 days
+            using Json and axios. The project was completed in 14 days.
             </p>
             <a className="linkToLiveApp" href="https://dry-plains-91322.herokuapp.com/" target="_black">Live app</a>
             <a className="linkToAppInGithub" href="https://github.com/FelipeAtGA/CH-Plan-A-Visit" target="_black">App on &nbsp;<i className="fa fa-github AppBttn" aria-hidden="true" /></a>
