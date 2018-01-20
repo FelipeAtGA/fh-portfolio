@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router';
 import Header from './Header';
 import Modal from './Modal';
 import Webdevpro from './webdevAndprogrammingLink/Webdevpro';
+import PsAi from './photoshopIllustratorLink/PsAi';
 import Home from './homepage/Home';
 
 class App extends Component {
@@ -46,6 +47,14 @@ class App extends Component {
               exact
               path="/Webdevpro"
               render={() => <Webdevpro setModal={this.setModal} />
+              }
+            />
+          </Switch>
+          <Switch>
+            <Route
+              exact
+              path="/PsAi"
+              render={() => <PsAi setModal={this.setModal} />
               }
             />
             <Route exact path="/" component={Home} />
