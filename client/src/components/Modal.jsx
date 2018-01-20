@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import unitCollectorGame    from '../img/unitCollectorGame.jpg';
 import Museumapp            from '../img/museumVisitPlanner_homepage.png';
 import MywebsiteImage       from '../img/portfolioHomepageImg.png';
+import Iartposter from '../img/posterD3-2.jpg';
+import Spaceroom from '../img/Spaceroom.jpg';
+import Portrait from '../img/selfPortrait.gif';
 import '../css/Modal.css';
 
 class Modal extends Component {
@@ -19,6 +22,12 @@ class Modal extends Component {
       imageToRender = Museumapp;
     } else if (this.props.imageUri === 'mywebsiteFrontPageImg') {
       imageToRender = MywebsiteImage;
+    } else if (this.props.imageUri === 'iarposter') {
+      imageToRender = Iartposter;
+    } else if (this.props.imageUri === 'spaceroom') {
+      imageToRender = Spaceroom;
+    } else if (this.props.imageUri === 'portrait') {
+      imageToRender = Portrait;
     }
     return (
       <div>
