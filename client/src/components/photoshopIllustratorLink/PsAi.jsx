@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../../css/Webdevpro.css';
 
 class PsAi extends Component {
   constructor(props) {
