@@ -15,7 +15,7 @@ class PsAi extends Component {
         <hr />
         <h1 className="pageTitle">Photoshop and Illustrator</h1>
         <div className="PsAiwrapper col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div className="poster col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div className="projectWrapper col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <img src={Iartposter} alt="poster of the iARTmix exhibition" />
             <h2>iARTmix poster</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
