@@ -5,6 +5,7 @@ import MywebsiteImage       from '../img/portfolioHomepageImg.png';
 import Iartposter from '../img/posterD3-2.jpg';
 import Spaceroom from '../img/Spaceroom.jpg';
 import Portrait from '../img/selfPortrait.gif';
+import Kiki from '../img/kiki.jpg';
 import '../css/Modal.css';
 
 class Modal extends Component {
@@ -28,6 +29,8 @@ class Modal extends Component {
       imageToRender = Spaceroom;
     } else if (this.props.imageUri === 'portrait') {
       imageToRender = Portrait;
+    } else if (this.props.imageUri === 'illustration') {
+      imageToRender = Kiki;
     }
     return (
       <div>
