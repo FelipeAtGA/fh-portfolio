@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class VidMation extends Component {
+class VideoMation extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,4 +21,4 @@ class VidMation extends Component {
   }
 }
 
-export default VidMation;
+export default VideoMation;
