@@ -4,6 +4,7 @@ import Header from './Header';
 import Modal from './Modal';
 import Webdevpro from './webdevAndprogrammingLink/Webdevpro';
 import PsAi from './photoshopIllustratorLink/PsAi';
+import VideoMation from './videoAnimation/VideoMation';
 import Home from './homepage/Home';
 
 class App extends Component {
@@ -55,6 +56,15 @@ class App extends Component {
               exact
               path="/PsAi"
               render={() => <PsAi setModal={this.setModal} />
+              }
+            />
+            <Route exact path="/" component={Home} />
+          </Switch>
+          <Switch>
+            <Route
+              exact
+              path="/videoAnimation"
+              render={() => <VideoMation setModal={this.setModal} />
               }
             />
             <Route exact path="/" component={Home} />
