@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../../css/VideoMation.css';
 
 class VideoMation extends Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class VideoMation extends Component {
       <div>
         <hr />
         <h1 className="pageTitle">Digital Video and Animation</h1>
-        <div className="clearfix">
+        <div className="videoWrapper clearfix">
           <video src="">Sorry, your browser doesn't support embeded videos</video>
         </div>
       </div>
