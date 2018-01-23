@@ -12,8 +12,8 @@ class VideoMation extends Component {
     return (
       <div>
         <hr />
-        <h1 className="pageTitle">Photoshop and Illustrator</h1>
-        <div className="PsAiwrapper clearfix">
+        <h1 className="pageTitle">Digital Video and Animation</h1>
+        <div className="clearfix">
           <video src="">Sorry, your browser doesn't support embeded videos</video>
         </div>
       </div>
