@@ -9,6 +9,7 @@ import Kiki from '../img/kiki.jpg';
 import Themeeting from '../video/theMeeting.mp4';
 import Purplebox from '../video/purpleBoxHD.mp4';
 import Characterstudy from '../video/character_study.mp4';
+import Psa from '../video/psa.mp4';
 import '../css/Modal.css';
 
 class Modal extends Component {
@@ -42,6 +43,8 @@ class Modal extends Component {
       videoToRender = Purplebox;
     } else if (this.props.imageUri === 'characterstudy') {
       videoToRender = Characterstudy;
+    } else if (this.props.imageUri === 'psa') {
+      videoToRender = Psa;
     }
     return (
       <div>
