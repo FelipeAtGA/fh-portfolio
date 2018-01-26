@@ -31,8 +31,15 @@ class VideoMation extends Component {
               role="button"
               tabIndex="0"
             />
-            <h2>Video</h2>
-            <p>Paragraph</p>
+            <h4>Stop motion animation:</h4>
+            <h2>The Meeting</h2>
+            <p>This was my first animation project. The idea was to understand
+            animation mechanics, concepts, and technicalities. I built the scene
+            with random objects that I found around my house, then set it up and
+            started taking pictures of the characters’ different positions. I
+            used a Creative Commons song. The story is simple, two friends that
+            meet at a place to go have some coffee.
+            </p>
           </div>
           <div className="projectWrapper">
             <div
