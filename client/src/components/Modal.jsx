@@ -11,6 +11,7 @@ import Purplebox from '../video/purpleBoxHD.mp4';
 import Characterstudy from '../video/character_study.mp4';
 import Psa from '../video/psa.mp4';
 import Definingspace from '../video/definingSpace.mp4';
+import Processingsketch from '../video/sketchIntoVideo4.mp4';
 import '../css/Modal.css';
 
 class Modal extends Component {
@@ -48,6 +49,8 @@ class Modal extends Component {
       videoToRender = Psa;
     } else if (this.props.imageUri === 'definespace') {
       videoToRender = Definingspace;
+    } else if (this.props.imageUri === 'processingsketch') {
+      videoToRender = Processingsketch;
     }
     return (
       <div>
