@@ -11,7 +11,7 @@ class PsAi extends Component {
     this.state = {
       images: [Iartposter, Spaceroom, Portrait, Kiki],
       imgpropsnames: ['iarposter', 'spaceroom', 'portrait', 'illustration'],
-      titles: ['iARTmix poster', 'Defining space', 'Self portrait', 'Illustration'],
+      titles: ['iARTmix poster', 'Defining space', 'Self portrait', 'Kiki'],
       classes: 'projectWrapper',
       text: [
         `I used photographs from my own repertory and Photoshop CC to build the
@@ -60,6 +60,7 @@ class PsAi extends Component {
               role="button"
               tabIndex="0"
             />
+            <h4>Photoshop and Illustrator</h4>
             <h2>{this.state.titles[0]}</h2>
             <div className="contentDescription">
               <p>{this.state.text[0]}</p>
@@ -75,6 +76,7 @@ class PsAi extends Component {
               role="button"
               tabIndex="0"
             />
+            <h4>Photoshop</h4>
             <h2>{this.state.titles[1]}</h2>
             <div className="contentDescription">
               <p>{this.state.text[1]}</p>
@@ -90,6 +92,7 @@ class PsAi extends Component {
               role="button"
               tabIndex="0"
             />
+            <h4>Photoshop</h4>
             <h2>{this.state.titles[2]}</h2>
             <div className="contentDescription">
               <p>{this.state.text[2]}</p>
@@ -105,6 +108,7 @@ class PsAi extends Component {
               role="button"
               tabIndex="0"
             />
+            <h4>Illustrator</h4>
             <h2>{this.state.titles[3]}</h2>
             <div className="contentDescription">
               <p>{this.state.text[3]}</p>
