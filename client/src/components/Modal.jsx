@@ -17,7 +17,6 @@ class Modal extends Component {
   }
 
   render() {
-    console.log('condi ', this.props.condi);
     let imageToRender = null;
     let renderVideo = this.props.condi;
     let videoToRender = null;
