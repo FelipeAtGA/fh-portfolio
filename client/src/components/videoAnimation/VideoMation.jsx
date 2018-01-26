@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 import ThemeetingPoster from '../../img/theMeetingVideoPoster.png';
 import Purpleboxposter from '../../img/purpleBoxPoster.png';
 import Characterstudy from '../../img/characterStudy.png';
+import Psaposter from '../../img/psa.png';
 import '../../css/VideoMation.css';
 
 class VideoMation extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      videoProps: ['themeeting', 'purplebox', 'characterstudy'],
-      imagePosters: [ThemeetingPoster, Purpleboxposter, Characterstudy],
+      videoProps: ['themeeting', 'purplebox', 'characterstudy', 'psa'],
+      imagePosters: [ThemeetingPoster, Purpleboxposter, Characterstudy, Psaposter],
     };
   }
 
