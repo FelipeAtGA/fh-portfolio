@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import ThemeetingPoster from '../../img/theMeetingVideoPoster.png';
 import Purpleboxposter from '../../img/purpleBoxPoster.png';
+import Characterstudy from '../../img/characterStudy.png';
 import '../../css/VideoMation.css';
 
 class VideoMation extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      videoProps: ['themeeting', 'purplebox'],
-      imagePosters: [ThemeetingPoster, Purpleboxposter],
+      videoProps: ['themeeting', 'purplebox', 'characterstudy'],
+      imagePosters: [ThemeetingPoster, Purpleboxposter, Characterstudy],
     };
   }
 
@@ -45,8 +46,8 @@ class VideoMation extends Component {
           <div className="projectWrapper">
             <div
               className="projectimage"
-              style={{ backgroundImage: `url(${this.state.imagePosters[0]})` }}
-              onClick={() => { this.props.setModal(this.state.videoProps[0], true); }}
+              style={{ backgroundImage: `url(${this.state.imagePosters[2]})` }}
+              onClick={() => { this.props.setModal(this.state.videoProps[2], true); }}
               onKeyDown={() => { this.props.setModal(); }}
               role="button"
               tabIndex="0"
