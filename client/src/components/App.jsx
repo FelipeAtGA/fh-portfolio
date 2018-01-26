@@ -13,11 +13,15 @@ class App extends Component {
     this.state = {
       modal: false,
       img4modal: '',
+      renderVideo: false,
     };
     this.setModal = this.setModal.bind(this);
   }
 
-  setModal(image) {
+  setModal(image, conditional) {
+    this.setState({
+      renderVideo: conditional,
+    });
     const imageName = image;
     const modal = document.getElementsByClassName('modalOverlay');
     if (this.state.modal === false) {
@@ -30,6 +34,7 @@ class App extends Component {
       modal[0].style.display = 'none';
       this.setState({
         modal: false,
+        renderVideo: false,
       });
     }
   }
@@ -39,6 +44,7 @@ class App extends Component {
       <div className="wrapper">
         <Modal
           imageUri={this.state.img4modal}
+          condi={this.state.renderVideo}
           setModal={this.setModal}
         />
         <Header />
@@ -58,7 +64,6 @@ class App extends Component {
               render={() => <PsAi setModal={this.setModal} />
               }
             />
-            <Route exact path="/" component={Home} />
           </Switch>
           <Switch>
             <Route
@@ -67,8 +72,8 @@ class App extends Component {
               render={() => <VideoMation setModal={this.setModal} />
               }
             />
-            <Route exact path="/" component={Home} />
           </Switch>
+          <Route exact path="/" component={Home} />
         </main>
       </div>
     );
