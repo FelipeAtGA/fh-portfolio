@@ -61,7 +61,10 @@ class PsAi extends Component {
               tabIndex="0"
             />
             <h2>{this.state.titles[0]}</h2>
-            <p>{this.state.text[0]}</p>
+            <div className="contentDescription">
+              <p>{this.state.text[0]}</p>
+            </div>
+            <p className="downArrow">&#8675;</p>
           </div>
           <div className={this.state.classes}>
             <div
@@ -73,7 +76,10 @@ class PsAi extends Component {
               tabIndex="0"
             />
             <h2>{this.state.titles[1]}</h2>
-            <p>{this.state.text[1]}</p>
+            <div className="contentDescription">
+              <p>{this.state.text[1]}</p>
+            </div>
+            <p className="downArrow">&#8675;</p>
           </div>
           <div className={this.state.classes}>
             <div
@@ -85,7 +91,10 @@ class PsAi extends Component {
               tabIndex="0"
             />
             <h2>{this.state.titles[2]}</h2>
-            <p>{this.state.text[2]}</p>
+            <div className="contentDescription">
+              <p>{this.state.text[2]}</p>
+            </div>
+            <p className="downArrow">&#8675;</p>
           </div>
           <div className={this.state.classes}>
             <div
@@ -97,7 +106,10 @@ class PsAi extends Component {
               tabIndex="0"
             />
             <h2>{this.state.titles[3]}</h2>
-            <p>{this.state.text[3]}</p>
+            <div className="contentDescription">
+              <p>{this.state.text[3]}</p>
+            </div>
+            <p className="downArrow">&#8675;</p>
           </div>
         </div>
       </div>
