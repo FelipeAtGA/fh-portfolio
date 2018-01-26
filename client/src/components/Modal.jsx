@@ -10,6 +10,7 @@ import Themeeting from '../video/theMeeting.mp4';
 import Purplebox from '../video/purpleBoxHD.mp4';
 import Characterstudy from '../video/character_study.mp4';
 import Psa from '../video/psa.mp4';
+import Definingspace from '../video/definingSpace.mp4';
 import '../css/Modal.css';
 
 class Modal extends Component {
@@ -45,6 +46,8 @@ class Modal extends Component {
       videoToRender = Characterstudy;
     } else if (this.props.imageUri === 'psa') {
       videoToRender = Psa;
+    } else if (this.props.imageUri === 'definespace') {
+      videoToRender = Definingspace;
     }
     return (
       <div>
