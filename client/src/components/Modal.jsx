@@ -7,6 +7,7 @@ import Spaceroom from '../img/Spaceroom.jpg';
 import Portrait from '../img/selfPortrait.gif';
 import Kiki from '../img/kiki.jpg';
 import Themeeting from '../video/theMeeting.mp4';
+import Purplebox from '../video/purpleBoxHD.mp4';
 import '../css/Modal.css';
 
 class Modal extends Component {
@@ -36,6 +37,8 @@ class Modal extends Component {
       imageToRender = Kiki;
     } else if (this.props.imageUri === 'themeeting') {
       videoToRender = Themeeting;
+    } else if (this.props.imageUri === 'purplebox') {
+      videoToRender = Purplebox;
     }
     return (
       <div>
@@ -54,7 +57,7 @@ class Modal extends Component {
             />
             <video
               controls
-              src={Themeeting}
+              src={videoToRender}
               style={{display: renderVideo ? 'block' : 'none' }}
             >Sorry, your browser doesn't support embeded videos</video>
             <div>
