@@ -68,6 +68,18 @@ class VideoMation extends Component {
             <h2>Video 4</h2>
             <p>Paragraph 4</p>
           </div>
+          <div className="projectWrapper">
+            <div
+              className="projectimage"
+              style={{ backgroundImage: `url(${this.state.imagePosters[4]})` }}
+              onClick={() => { this.props.setModal(this.state.videoProps[4], true); }}
+              onKeyDown={() => { this.props.setModal(); }}
+              role="button"
+              tabIndex="0"
+            />
+            <h2>Video 5</h2>
+            <p>Paragraph 5</p>
+          </div>
         </div>
       </div>
     );
