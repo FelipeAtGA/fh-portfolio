@@ -4,14 +4,15 @@ import Purpleboxposter from '../../img/purpleBoxPoster.png';
 import Characterstudy from '../../img/characterStudy.png';
 import Psaposter from '../../img/psa.png';
 import Definespace from '../../img/definingSpaceVideoPoster.png';
+import Processingsketch from '../../img/processingSketch.png';
 import '../../css/VideoMation.css';
 
 class VideoMation extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      videoProps: ['themeeting', 'purplebox', 'characterstudy', 'psa', 'definespace'],
-      imagePosters: [ThemeetingPoster, Purpleboxposter, Characterstudy, Psaposter, Definespace],
+      videoProps: ['themeeting', 'purplebox', 'characterstudy', 'psa', 'definespace', 'processingsketch'],
+      imagePosters: [ThemeetingPoster, Purpleboxposter, Characterstudy, Psaposter, Definespace, Processingsketch],
     };
   }
 
@@ -81,6 +82,7 @@ class VideoMation extends Component {
             <h2>Video 5</h2>
             <p>Paragraph 5</p>
           </div>
+          <div className="projectWrapper">
             <div
               className="projectimage"
               style={{ backgroundImage: `url(${this.state.imagePosters[5]})` }}
