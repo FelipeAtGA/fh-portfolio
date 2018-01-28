@@ -45,7 +45,7 @@ const Navigation = () => {
             <li><Link to="videoAnimation">&#8627; video + animation</Link></li>
           </ul>
         </li>
-        <li><Link to="#">About</Link></li>
+        <li><Link to="/about">About</Link></li>
         <li>
           <a href="https://github.com/FelipeAtGA" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-github" aria-hidden="true" />
