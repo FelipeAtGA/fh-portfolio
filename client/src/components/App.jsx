@@ -17,6 +17,7 @@ class App extends Component {
       renderVideo: false,
     };
     this.setModal = this.setModal.bind(this);
+    this.clipboardCopy = this.clipboardCopy.bind(this);
   }
 
   setModal(image, conditional) {
@@ -38,6 +39,12 @@ class App extends Component {
         renderVideo: false,
       });
     }
+  }
+
+  clipboardCopy(text) {
+    document.querySelector('#email').select();
+    document.execCommand('copy');
+
   }
 
   render() {
@@ -78,7 +85,7 @@ class App extends Component {
             <Route
               exact
               path="/about"
-              render={() => <About setModal={this.setModal} />
+              render={() => <About clipboardCopy={this.clipboardCopy} />
               }
             />
           </Switch>
