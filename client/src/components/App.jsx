@@ -85,7 +85,12 @@ class App extends Component {
             <Route
               exact
               path="/about"
-              render={() => <About clipboardCopy={this.clipboardCopy} />
+              render={() => (
+                <About
+                  clipboardCopy={this.clipboardCopy}
+                  setModal={this.setModal}
+                />
+                )
               }
             />
           </Switch>
