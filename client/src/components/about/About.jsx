@@ -17,7 +17,7 @@ class About extends Component {
         <h1 className="pageTitle">About</h1>
         <div className="aboutWrapper clearfix">
           <div
-            className="aboutImgtWrapper"
+            className="aboutImgWrapper"
             style={{ backgroundImage: `url(${Aboutimage})` }}
           />
           <div className="aboutTextWrapper">
@@ -49,6 +49,17 @@ class About extends Component {
                 >
                   ( click-copy to clipboard )
                 </button>
+              </div>
+              <div className="aboutContactDivs">
+                <p className="contactType">Resume</p>
+                <div
+                  onClick={() => { this.props.setModal('resume'); }}
+                  onKeyDown={() => { this.props.setModal(); }}
+                  role="button"
+                  tabIndex="0"
+                >
+                  <p>view online</p>
+                </div>
               </div>
               <div className="aboutContactDivs">
                 <p className="contactType">Resume</p>
