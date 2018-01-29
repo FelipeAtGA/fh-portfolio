@@ -12,6 +12,7 @@ import Characterstudy from '../video/character_study.mp4';
 import Psa from '../video/psa.mp4';
 import Definingspace from '../video/definingSpace.mp4';
 import Processingsketch from '../video/sketchIntoVideo4.mp4';
+import Resume from '../img/resume122117-v2a-img.jpg';
 import '../css/Modal.css';
 
 class Modal extends Component {
@@ -51,6 +52,8 @@ class Modal extends Component {
       videoToRender = Definingspace;
     } else if (this.props.imageUri === 'processingsketch') {
       videoToRender = Processingsketch;
+    } else if (this.props.imageUri === 'resume') {
+      imageToRender = Resume;
     }
     return (
       <div>
