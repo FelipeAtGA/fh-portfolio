@@ -3,7 +3,7 @@
   width: 300px;
   height: 300px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin: 20px 15px 15px 0;
   border-radius: 15px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,4 +17,33 @@
 
 .aboutTextWrapper ul{
   list-style: none;
+}
+
+.aboutTextWrapper ul li{
+  padding: 10px 0;
+}
+
+.aboutContactDivs{
+  float: left;
+  width: 20vw;
+  height: 100px;
+  padding: 15px 10px;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.contactType {
+  font-size: 1.3vw;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  text-align: center;
+}
+
+.contactButton {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
 }
