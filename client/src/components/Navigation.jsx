@@ -8,7 +8,7 @@ const Navigation = () => {
 
   function active() {
     element[0].style.backgroundColor = '#000';
-    element[0].style.color = '#00ff00';
+    element[0].style.color = '#fff';
   }
 
   function unactive() {
