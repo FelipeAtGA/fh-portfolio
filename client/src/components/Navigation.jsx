@@ -43,6 +43,7 @@ const Navigation = () => {
             <li><Link to="/Webdevpro">&#8627; web dev. + programming</Link></li>
             <li><Link to="/PsAi">&#8627; photoshop + illustrator</Link></li>
             <li><Link to="videoAnimation">&#8627; video + animation</Link></li>
+            <li><Link to="Genmedia">&#8627; generative media</Link></li>
           </ul>
         </li>
         <li><Link to="/about">About</Link></li>
