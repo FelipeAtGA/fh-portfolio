@@ -1,0 +1,19 @@
+.genmediaWrapper {
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+.genmediaWrapper .floating-box {
+  text-align: center;
+}
+
+.upperVideos, .lowerVideos {
+  width: 30%;
+  display: inline-block;
+  margin: 1%;
+}
+
+.center {
+  width: 70%;
+}
