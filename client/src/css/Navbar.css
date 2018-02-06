@@ -68,7 +68,7 @@ li.dropdown {
 }
 
 .dropdown:hover .dropdown-content {
-  max-height: 126px;
+  max-height: 200px;
   transition: max-height 0.25s ease-in;
   padding: initial;
   min-width: 250px;
