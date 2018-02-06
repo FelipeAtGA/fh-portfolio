@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router';
 import Header from './Header';
 import Modal from './Modal';
 import Webdevpro from './webdevAndprogrammingLink/Webdevpro';
+import Genmedia from './webdevAndprogrammingLink/Genmedia';
 import PsAi from './photoshopIllustratorLink/PsAi';
 import VideoMation from './videoAnimation/VideoMation';
 import About from './about/About';
@@ -44,7 +45,6 @@ class App extends Component {
   clipboardCopy(text) {
     document.querySelector('#email').select();
     document.execCommand('copy');
-
   }
 
   render() {
@@ -92,6 +92,15 @@ class App extends Component {
                 />
                 )
               }
+            />
+          </Switch>
+          <Switch>
+            <Route
+              exact
+              path="/genmedia"
+              render={() => (
+                <Genmedia />
+                )}
             />
           </Switch>
           <Route exact path="/" component={Home} />
