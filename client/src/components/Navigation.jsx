@@ -40,9 +40,9 @@ const Navigation = () => {
             onFocus={() => undefined}
             onBlur={() => undefined}
           >
-            <li><Link to="/Webdevpro">&#8627; web dev. + programming</Link></li>
-            <li><Link to="/PsAi">&#8627; photoshop + illustrator</Link></li>
-            <li><Link to="videoAnimation">&#8627; video + animation</Link></li>
+            <li><Link to="/Webdevpro"> Web Development</Link></li>
+            <li><Link to="/PsAi"> Photoshop / Illustrator</Link></li>
+            <li><Link to="videoAnimation"> Video / Animation</Link></li>
           </ul>
         </li>
         <li><Link to="/about">About</Link></li>
