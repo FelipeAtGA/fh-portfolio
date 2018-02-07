@@ -30,6 +30,7 @@ class About extends Component {
               certificate from General
               Assembly. I am in a constant learning and creative mode.
               Please check out my resume in this page for more details.
+              Thank you!
               </p>
             </div>
             <div>
