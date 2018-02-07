@@ -49,7 +49,7 @@ class About extends Component {
                     onKeyDown={() => { this.props.clipboardCopy(); }}
                     tabIndex="0"
                   >
-                     click-copy to clipboard
+                     click/copy email to clipboard
                   </button>
                 </form>
               </div>
@@ -61,7 +61,7 @@ class About extends Component {
                   onKeyDown={() => { this.props.setModal(); }}
                   tabIndex="0"
                 >
-                  view online
+                  view resume online
                 </button>
                 <a
                   className="contactAnchor"
